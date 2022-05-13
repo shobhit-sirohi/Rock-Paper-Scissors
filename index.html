@@ -9,27 +9,62 @@
     <meta name="keywords" content="one, two, three" />
 
     <title>🪨 📜 ✂</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- external CSS link -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>🪨 📜 ✂️</h1>
-
-    <h2>AI</h2>
-    <img id="AI" src="" alt="playing card" />
-    <h3></h3>
-    <h2 id="player">PLAYER</h2>
-    <img id="HUMAN" src="" alt="playing card" />
-    <h3 id="AI"></h3>
-    <section>
-      <button onclick="draw(1)" id="rock">Rock</button>
-      <button onclick="draw(2)" id="paper">Paper</button>
-      <button onclick="draw(3)" id="scissors">
-        Scissors
-      </button>
-    </section>
+    <div class="maindiv">
+      <div class="flex">
+        <section class="mainsec humansec">
+          <h2>HUMAN</h2>
+          <h3 class="humanScore"></h3>
+          <img
+            id="HUMAN"
+            src="images/HUMANstart.png"
+            alt=""
+          />
+        </section>
+        <section class="mainsec aisec">
+          <h2 id="player">AI</h2>
+          <h3 class="aiScore"></h3>
+          <img id="AI" src="images/AIstart.png" alt="" />
+        </section>
+      </div>
+      <div class="lowersection">
+        <h4>CHOOSE ONE↓</h4>
+        <section class="buttons">
+          <button onclick="draw(1)" id="rock">ROCK</button>
+          <button onclick="draw(2)" id="paper">
+            PAPER
+          </button>
+          <button onclick="draw(3)" id="scissors">
+            SCISSORS
+          </button>
+        </section>
+        <footer>
+          <a
+            href="https://shobhitsirohi.com"
+            target="_blank"
+            >made by shobhit.</a
+          >
+        </footer>
+      </div>
+    </div>
 
     <script
       type="text/javascript"

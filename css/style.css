@@ -1,42 +1,83 @@
 /* Box Model Hack */
 * {
-     box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
+/* desktop */
 
 body {
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+.maindiv {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  font-size: 5em;
+  border-radius: 50%;
 
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+button:hover {
+  text-decoration: underline;
+}
+img {
+  width: auto;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.mainsec {
+  text-align: center;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-header {
-
+h2,
+h3 {
+  margin: 0px;
+  font-size: 4em;
 }
-
-footer {
-
+h4 {
+  font-size: 2.5em;
+  padding-bottom: 0.5em;
+  margin: 0;
 }
+.lowersection {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+a {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  justify-content: center;
+  font-size: 1.2em;
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+  color: inherit;
+  text-decoration: none;
+}
