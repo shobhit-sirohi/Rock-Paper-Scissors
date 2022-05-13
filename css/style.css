@@ -20,6 +20,7 @@
 /* desktop */
 
 body {
+  width: 100vw;
   margin: auto;
   font-family: "Inter", sans-serif;
 }
