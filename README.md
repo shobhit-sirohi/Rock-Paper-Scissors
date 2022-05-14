@@ -3,7 +3,8 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-<img width="1437" alt="Screenshot 2022-05-14 at 12 10 51 AM" src="https://user-images.githubusercontent.com/21247694/168411609-0fbc6bf2-f1dc-4cc1-8225-bf00617a4201.png">
+![GAME SCREEN](https://user-images.githubusercontent.com/21247694/168411732-a60b70e4-c116-46c6-a6b5-9c6902bdff88.png)
+
 
 
 ## How It's Made:
